@@ -1,0 +1,61 @@
+header {
+    height: 110px;
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(123,0,254,1) 100%);
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 45px;
+    float: left;
+}
+
+.navega {
+    float: right;
+    list-style: none;
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: normal;
+    margin-top: 40px;
+}
+
+.tituloHeader {
+    color: white;
+    float: left;
+    margin-top: 35px;
+    margin-left: 15px;
+    font-size: 30px;
+}
+
+.links {
+    font-size: 1.2rem;
+    padding: 5px 1.5rem;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: rgb(14, 14, 26);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    transition: 0.6s;
+    text-decoration: none;
+    box-shadow: 0px 0px 60px rgb(109, 98, 98);
+    -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+        
+}
+
+.links:hover{
+    background: rgb(194, 178, 178);
+    background: linear-gradient(270deg, rgba(175, 1, 255, 0.681) 0%, rgba(115, 4, 243, 0.873) 60%);
+    color: rgb(233, 229, 229);
+}
+
+
+
+nav {
+    margin-right: 70px;
+}
+

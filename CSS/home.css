@@ -1,0 +1,12 @@
+.animeImgs {
+    width: 20%;
+    height: 350px;
+    float: left;
+    -webkit-transition: -webkit-transform .5s ease;
+     transition: transform .5s ease;
+}
+
+ .gallery:hover img{
+     -webkit-transform: scale(1.01);
+     transform: scale(1.05);
+ }
